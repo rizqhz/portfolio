@@ -36,10 +36,16 @@ nav > a:hover {
     background-color: mediumseagreen;
 }
 
+nav > a > i {
+    margin: 4px 10px 4px 40px;
+}
+
 nav > header {
     margin: 0 auto;
     background-color: lightgreen;
     width: 100%;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 nav > header > p, h1 {
@@ -65,8 +71,14 @@ main {
 }
 
 main > article {
-    font-size: 18pt;
+    font-size: 19pt;
+    line-height: 1.5cm;
     padding: 0px 30px;
+}
+
+main > article > p, li {
+    text-indent: 1cm;
+    text-align: justify;
 }
 
 footer {
